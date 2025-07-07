@@ -1,0 +1,8 @@
+{
+  "name": "Gemini UI Builder",
+  "id": "figma-wireframe-assistant",
+  "api": "1.0.0",
+  "main": "plugin.js",
+  "ui": "plugin.html",
+  "editorType": ["figma"]
+}

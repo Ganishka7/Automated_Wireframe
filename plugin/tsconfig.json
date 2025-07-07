@@ -1,0 +1,25 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES6",
+//     "module": "amd",
+//     "lib": ["esnext"],                            // ✅ Use esnext or es6 for basic types
+//     "types": ["@figma/plugin-typings"],          // ✅ Include only Figma types
+//     "outFile": "plugin.js"
+//   },
+//   "include": ["plugin.ts", "ui_builder.js"]
+// }
+
+
+{
+  "compilerOptions": {
+   
+    "target": "ES6",
+    "module": "amd",
+    "lib": ["esnext"],
+    "types": ["@figma/plugin-typings"],
+    "outFile": "plugin.js"
+  },
+  "include": ["plugin.ts"]
+}
+
+
